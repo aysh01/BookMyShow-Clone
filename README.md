@@ -11,7 +11,9 @@
     <div align="center">
   <img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="600" height="300"/><br>
       <hr>
+      <div align="left">
 :woman_technologist: About Me :<br>
       I am a Web Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from India.
+      </div>
 </div>
 </div>
