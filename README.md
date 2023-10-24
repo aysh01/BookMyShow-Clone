@@ -10,7 +10,7 @@
 </h1>
     <div align="center">
   <img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="600" height="300"/><br>
-      ---
+      <hr>
 ### :woman_technologist: About Me :<br>
       I am a Web Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from India.
 </div>
