@@ -1,6 +1,6 @@
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/3oz8xD60ymhwF35Xb2/giphy.gif" width="100"/><br>
-    <a href="">
+    <a href="https://www.linkedin.com/in/aayush-kantak-88a7b4271">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a><br>
         <img src="https://komarev.com/ghpvc/?username=aysh01&style=flat-square&color=blue" alt=""/>
@@ -14,7 +14,9 @@
       <div align="left">
 :woman_technologist: About Me :<br>
       I am a Web Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from India.
-:mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/aayush-kantak-88a7b4271)
+:mailbox:How to reach me: <a href="https://www.linkedin.com/in/aayush-kantak-88a7b4271">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a><br>
       </div>
 </div>
 </div>
