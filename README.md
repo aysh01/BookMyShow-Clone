@@ -5,7 +5,6 @@
   </a><br>
         <img src="https://komarev.com/ghpvc/?username=aysh01&style=flat-square&color=blue" alt=""/>
   <h1>
-  hey there
-    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHZtc2Y0eWp4eW01eGwxd3dhOGt2a2xxbTNyNDFxODVwdmdhM2p1bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hvRJCLFzcasrR4ia7z/giphy.gif" alt="" width="30px" />
+  hey there <img src="https://media.giphy.com/media/HscDLzkO8EOTmgkhQP/giphy.gif" width="30px" />
 </h1>
 </div>
