@@ -13,7 +13,7 @@
       <hr>
       <div align="left">
 :woman_technologist: About Me :<br>
-      I am a Web Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from India.
+      I am a Web Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from India.<br>
 :mailbox:How to reach me: <a href="https://www.linkedin.com/in/aayush-kantak-88a7b4271">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a><br>
