@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/2-movie-seat-booking/asset/Almost_there/style.css">
+    <link rel="icon" href="/logo1.png" type="image/icon type">
+
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>Alomost There! - Cinépix.com</title>
+    <script src="/src/2-movie-seat-booking/asset/Almost_there/script.js"></script>
+    <script src="/src/2-movie-seat-booking/asset/Almost_there/index.js"></script>
+    <script src="/src/2-movie-seat-booking/asset/Almost_there/node_sms/index.js"></script>
+</head>
+
+<body>
+    <div class="ticket">
+        <section>Title</section> <!-- Name of the Movie -->
+        <p>hindi</p> <!-- Language of the Movie-->
+        <set>No.of Seats</set> <!-- Total Number of Seats-->
+        <a></a>
+        <hr>
+
+        <!-- Ticket Price -->
+        <div id="price">Ticket Price</div>
+        <article id="ticket">200</article>
+        <div id="price">Convenience Fees&nbsp;*</div>
+        <article id="fees">29.50</article><br><br>
+        <div id="price">Total Payable Amount (in &#x20B9;)</div>
+        <hr>
+        <span>&#x20B9;</span>
+        <article id="total"></article>
+        <hr>
+        <button type="reset" onclick="cancel()"><i class='bx bxs-doughnut-chart'>&nbsp;</i>CANCEL BOOKING</button>
+        <div id="contact">Contact Details</div>
+        <form onkeypress="handleKeypress()">
+            <input type="text" placeholder="Enter Your Mobile Number" required>
+        </form>
+        <a href="/src/2-movie-seat-booking/asset/Almost_there/dist/index.html"><button type="submit" id="submit"><i
+                    class='bx bxs-doughnut-chart'>&nbsp;</i>CONFIRM
+                BOOKING</button></a>
+    </div>
+    <script>
+        document.querySelector("section").innerHTML = localStorage.getItem("text"); //Title of Movie
+        document.querySelector("set").innerHTML = localStorage.getItem("obj"); //No. of Seats
+        document.getElementById("fees").innerHTML = localStorage.getItem("result"); //Gst Charges
+
+        const paisa = [['200'], ['150'], ['130'], ['100']]; //List of Ticket Prices
+        const array = [11.5, 2.5, 28.2, 3.4]; //List of Convenience Fees
+
+        const result = getRandomItem(array);
+        localStorage.setItem("result", result);
+        // console.log(result);
+
+        function getRandomItem(arr) {
+
+            // get random index value
+            const randomIndex = Math.floor(Math.random() * arr.length);
+
+            // get random item
+            const item = arr[randomIndex];
+
+            return item;
+        }
+
+
+        const ticket = document.getElementById("ticket").innerHTML;
+        const fees = document.getElementById("fees").innerHTML;
+        // console.log(ticket);
+
+        const date = new Date();
+        const f = new Intl.DateTimeFormat("en-us", {
+            dateStyle: "full",
+        })
+        // console.log(f.format());
+        document.querySelector("a").innerHTML = f.format();
+
+        if (localStorage.getItem("text") == 'Nun II' || 'Saw X') {
+            document.querySelector("p").innerHTML = 'English';
+        }
+        else {
+            document.querySelector("p").innerHTML = 'Hindi';
+        }
+
+        //get('Platinum')
+        //get('obj')
+        if (localStorage.getItem("platinum").includes('VIP')) {
+            document.getElementById("ticket").innerHTML = paisa[0];
+        }
+        else if (localStorage.getItem("platinum").includes('CLUB')) {
+            document.getElementById("ticket").innerHTML = paisa[1];
+        }
+
+        else if (localStorage.getItem("platinum").includes('EXCLUSIVE')) {
+            document.getElementById("ticket").innerHTML = paisa[2];
+        }
+
+        else if (localStorage.getItem("platinum").includes('NORMAL')) {
+            document.getElementById("ticket").innerHTML = paisa[3];
+        }
+
+        const str1 = parseInt(document.getElementById("ticket").innerHTML);
+        const str2 = parseInt(fees);
+        let x = document.getElementById("total").innerHTML = (str1 + str2);
+        localStorage.setItem("total", x)
+    </script>
+</body>
+
+</html>
