@@ -8,6 +8,6 @@
   hey there <img src="https://media.giphy.com/media/HscDLzkO8EOTmgkhQP/giphy.gif" width="30px" />
   </h1>
   <div align="center">
-  <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
+    <img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="600" height="300/>
 </div>
 </div>
